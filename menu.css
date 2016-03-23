@@ -40,7 +40,7 @@ nav ul li a  {
         color: #000; /* On passe le texte blanc... */
         background: #01D90C; /* ... et au contraire, le fond en vert */
 }
-#sous_menu a {
+.sous_menu a {
 	color: white;
 	background: #01D90C;
 }
