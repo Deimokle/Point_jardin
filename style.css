@@ -17,9 +17,15 @@ article {
 	border: 2px solid black;
 	padding: 0 10px 0 10px;
 }
+h1 {
+	color : #4aad1f;
+}
+p {
+	margin: -3px;
+}
 footer {
 	height: 100px;
-	background-color: black;
+	background-color: #484545;
 	clear: both;
 }
 .horaire {
@@ -63,24 +69,23 @@ footer {
 	clear: both;
 }
 #topbar {
-	background-color: #000000;
+	background-color: #484545;
 	width: 100%;
 	height: 50px;
 	margin: 0 auto;
 }
 #logo {
+	background-image: url("images/logo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 	height: 245px;
 	margin: 0 auto;
 	margin-top: 25px;
 }
 #bottombar {
-	background-color: black;
+	background-color: #acd389;
 	width: 100%;
 	height: 10px;
 	clear: both;
-}
-@media screen and (max-width: 600px){
-	#logo {
-		width: 100%;
-	}
 }
