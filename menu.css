@@ -30,19 +30,20 @@ nav ul li a  {
 }
 #menu li ul /* Sous-listes */
 { 
-	color: #01D90C;
+	color: #67c83d;
         position: absolute; /* Position absolue */
         width: 140px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
 }
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
-        color: #000; /* On passe le texte blanc... */
-        background: #01D90C; /* ... et au contraire, le fond en vert */
+        color: #ffffff; /* On passe le texte blanc... */
+        background: #67c83d; /* ... et au contraire, le fond en vert */
 }
 #sous_menu a {
-	color: white;
-	background: #01D90C;
+	color: black;
+	background: #67c83d;
+        font: bold;
 }
 #menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
 {
