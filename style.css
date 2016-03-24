@@ -18,9 +18,10 @@ article {
 	padding: 0 10px 0 10px;
 }
 h1 {
-	font-size: 20px;
+	font-size: 25px;
 	color : #4aad1f;
-	//font: bold;
+	font: bold;
+	text-align: center;
 }
 .Bienvenue {
 	margin-left: 10px;
