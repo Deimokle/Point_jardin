@@ -68,6 +68,9 @@ footer {
 	margin-top: 15px;
 	clear: both;
 }
+.video {
+	margin-top: 75px;
+}
 #topbar {
 	background-color: #484545;
 	width: 100%;
@@ -86,6 +89,9 @@ footer {
 	clear: both;
 }
 @media screen and (max-width: 600px){
+	.video {
+		width: 100%;
+	}
 	#logo {
 		width: 100%; /* permet de garder l'image a 100% en dessous de 600px */
 	}
