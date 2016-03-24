@@ -74,13 +74,10 @@ footer {
 	height: 200px;
 }
 .rotation_images {
-	height: 200px;
-	border: 2px solid black;
-	margin-top: 15px;
-	clear: both;
-}
+		width: 100%;
+	}
 .video {
-	margin-top: 75px;
+	margin-top: 40px;
 }
 #topbar {
 	background-color: #484545;
@@ -110,9 +107,18 @@ footer {
 .tacvt2 {
     margin-top: 12px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 991px){
+	.video {
+		margin-top: 10px;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 700px){
 	.video {
 		width: 100%;
+		height: 400px;
+		margin-top: 10px;
+
 	}
 	#logo {
 		width: 100%; /* permet de garder l'image a 100% en dessous de 600px */
