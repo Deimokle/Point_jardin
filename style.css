@@ -87,6 +87,6 @@ footer {
 }
 @media screen and (max-width: 600px){
 	#logo {
-		width: 100%;
+		width: 100%; /* permet de garder l'image a 100% en dessous de 600px */
 	}
 }
