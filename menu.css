@@ -1,6 +1,3 @@
-nav ul li a  {
-        text-align : center;
-}
 #menu, #menu ul /* Liste */     
 {
         padding : 0;
@@ -14,6 +11,7 @@ nav ul li a  {
         font-weight : bold; /* texte gras */
         font-family : Arial;
         font-size : 14px;
+        text-align: center;
 }
 #menu a /* Contenu des listes */
 {
@@ -25,7 +23,7 @@ nav ul li a  {
         width : 140px; /* largeur */
 }
 #menu li /* Éléments des listes */      
-{ 
+{
         float : left; 
 }
 #menu li ul /* Sous-listes */
@@ -38,12 +36,12 @@ nav ul li a  {
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
         color: #ffffff; /* On passe le texte blanc... */
-        background: #67c83d; /* ... et au contraire, le fond en vert */
+        background-color: #67c83d; /* ... et au contraire, le fond en vert */
 }
 
 .sous_menu a {
-	color: white;
-	background: #67c83d;
+	color: black;
+	background-color: #67c83d;
         font: bold;
 }
 #menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
