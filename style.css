@@ -23,14 +23,6 @@ h1 {
 	font: bold;
 	text-align: center;
 }
-.Bienvenue {
-	margin-left: 10px;
-	font-size: 20px;
-	color : #4aad1f;
-}
-.BienvText {
-	margin-left: 10px;
-}
 p {
 	margin: -3px;
 }
@@ -38,6 +30,14 @@ footer {
 	height: 100px;
 	background-color: #484545;
 	clear: both;
+}
+.Bienvenue {
+	margin-left: 10px;
+	font-size: 20px;
+	color : #4aad1f;
+}
+.BienvText {
+	margin-left: 10px;
 }
 .horaire {
 	font-size: 25px;
@@ -64,25 +64,31 @@ footer {
 	width: 40%;
 	height: 200px;
 }
-#thirdbar{
-	background-color: #acd389;
-	width: 100%;
-	height: 10px;
-	clear: both;
-	margin-top: 25px;
-}
 .Nouveaute {
 	color: #4FAD46;
 	font-size: 25px;
 	text-align: center;
-
 }
 .rotation_images {
 	text-align: center;
 }
 
 .video {
-	margin-top: 40px;
+	margin-top: 33px;
+}
+.tacv {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.tacvt1 {
+    margin-top: 20px;
+}
+.tacvt2 {
+    margin-top: 12px;
+}
+.marquee {
+	margin-top: 5px;
 }
 #topbar {
 	background-color: #484545;
@@ -110,22 +116,18 @@ footer {
 	margin: 0 auto;
 	margin-top: 25px;
 }
+#thirdbar{
+	background-color: #acd389;
+	width: 100%;
+	height: 10px;
+	clear: both;
+	margin-top: 25px;
+}
 #bottombar {
 	background-color: #acd389;
 	width: 100%;
 	height: 10px;
 	clear: both;
-}
-.tacv {
-    float: left;
-    margin-right: 5px;
-    margin-top: 2px;
-}
-.tacvt1 {
-    margin-top: 20px;
-}
-.tacvt2 {
-    margin-top: 12px;
 }
 @media screen and (max-width: 991px){
 	.video {
@@ -140,7 +142,9 @@ footer {
 		margin-top: 10px;
 
 	}
+}
+@media screen and (max-width: 390px){
 	#logo {
-		width: 100%; /* permet de garder l'image a 100% en dessous de 600px */
+		width: 100%;
 	}
 }
