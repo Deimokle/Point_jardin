@@ -8,6 +8,8 @@ nav ul li a  {
         list-style : none;
         line-height : 22px;
         text-align : center;
+        position: responsive;
+        
 }
 #menu /* Ensemble du menu */
 {
@@ -27,6 +29,7 @@ nav ul li a  {
 #menu li /* Éléments des listes */      
 { 
         float : left; 
+
 }
 #menu li ul /* Sous-listes */
 { 
@@ -34,6 +37,7 @@ nav ul li a  {
         position: absolute; /* Position absolue */
         width: 140px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
+        background: #67c83d
 }
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
@@ -42,7 +46,7 @@ nav ul li a  {
 }
 
 .sous_menu a {
-	color: white;
+	color: #67c83d;
 	background: #67c83d;
         font: bold;
 }
