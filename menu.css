@@ -37,11 +37,7 @@
         position: absolute; /* Position absolue */
         width: 160px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
-<<<<<<< HEAD
-        background: #67c83d
-=======
         z-index: 10;
->>>>>>> 346e42657ed794bdfcb951d255a016e1a0caa223
 }
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
