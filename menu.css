@@ -1,4 +1,4 @@
-nav ul li a  {
+#menu nav ul {
         text-align : center;
 }
 #menu, #menu ul /* Liste */     
@@ -24,7 +24,7 @@ nav ul li a  {
         background : #ebece4; /* couleur de fond */        
         color : #000000; /* couleur du texte */
         text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
-        width : 140px; /* largeur */
+        width : 160px; /* largeur */
 }
 #menu li /* Éléments des listes */      
 { 
@@ -35,9 +35,13 @@ nav ul li a  {
 { 
 	color: #67c83d;
         position: absolute; /* Position absolue */
-        width: 140px; /* Largeur des sous-listes */
+        width: 160px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
+<<<<<<< HEAD
         background: #67c83d
+=======
+        z-index: 10;
+>>>>>>> 346e42657ed794bdfcb951d255a016e1a0caa223
 }
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
