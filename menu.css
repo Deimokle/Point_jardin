@@ -7,15 +7,14 @@
         margin : 0;
         list-style : none;
         line-height : 22px;
-        text-align : center;
-        position: responsive;
-        
+        text-align : center;      
 }
 #menu /* Ensemble du menu */
 {
         font-weight : bold; /* texte gras */
         font-family : Arial;
         font-size : 14px;
+        text-align: center;
 }
 #menu a /* Contenu des listes */
 {
@@ -27,7 +26,7 @@
         width : 160px; /* largeur */
 }
 #menu li /* Éléments des listes */      
-{ 
+{
         float : left; 
 
 }
@@ -37,12 +36,13 @@
         position: absolute; /* Position absolue */
         width: 160px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
+        background: #67c83d
         z-index: 10;
 }
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
         color: #ffffff; /* On passe le texte blanc... */
-        background: #67c83d; /* ... et au contraire, le fond en vert */
+        background-color: #67c83d; /* ... et au contraire, le fond en vert */
 }
 
 .sous_menu a {
