@@ -1,0 +1,125 @@
+body {
+	background-color: white;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+header {
+	text-align: center;
+	padding-top: 0px;
+	background-color: #ebece4;
+}
+a {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+article {
+	border: 2px solid black;
+	padding: 0 10px 0 10px;
+}
+h1 {
+	font-size: 20px;
+	color : #4aad1f;
+	//font: bold;
+}
+.Bienvenue {
+	margin-left: 10px;
+	font-size: 20px;
+	color : #4aad1f;
+}
+.BienvText {
+	margin-left: 10px;
+}
+p {
+	margin: -3px;
+}
+footer {
+	height: 100px;
+	background-color: #484545;
+	clear: both;
+}
+.horaire {
+	font-size: 25px;
+	float: left;
+	margin: 3px 0 0 30px;
+	background-color: #7bc142;
+	border-radius: 15px;
+	padding: 3px;
+}
+.facebook {
+	font-size: 25px;
+	float: right;
+	margin: 3px 30px 0 0;
+	background-color: white;
+	border-radius: 15px;
+	padding: 3px;	
+}
+.defilement_images {
+	height: 200px;
+	border: 2px solid black;
+	margin-top: 15px;
+}
+.premier_bloc {
+	float: left;
+	margin: 20px 0 20px 9px;
+	width: 40%;
+	height: 200px;
+}
+.deuxieme_bloc {
+	float: right;
+	margin: 20px 9px 20px 0;
+	margin-bottom: 20px;
+	width: 40%;
+	height: 200px;
+}
+.rotation_images {
+		width: 100%;
+	}
+.video {
+	margin-top: 40px;
+}
+#topbar {
+	background-color: #484545;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+}
+#logo {
+	height: 245px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+#bottombar {
+	background-color: #acd389;
+	width: 100%;
+	height: 10px;
+	clear: both;
+}
+.tacv {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.tacvt1 {
+    margin-top: 20px;
+}
+.tacvt2 {
+    margin-top: 12px;
+}
+@media screen and (max-width: 991px){
+	.video {
+		margin-top: 10px;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 700px){
+	.video {
+		width: 100%;
+		height: 400px;
+		margin-top: 10px;
+
+	}
+	#logo {
+		width: 100%; /* permet de garder l'image a 100% en dessous de 600px */
+	}
+}
