@@ -18,9 +18,10 @@ article {
 	padding: 0 10px 0 10px;
 }
 h1 {
-	font-size: 20px;
+	font-size: 25px;
 	color : #4aad1f;
-	//font: bold;
+	font: bold;
+	text-align: center;
 }
 .Bienvenue {
 	margin-left: 10px;
@@ -48,7 +49,6 @@ footer {
 }
 .defilement_images {
 	height: 200px;
-	border: 2px solid black;
 	margin-top: 15px;
 }
 .premier_bloc {
@@ -64,9 +64,23 @@ footer {
 	width: 40%;
 	height: 200px;
 }
+#thirdbar{
+	background-color: #acd389;
+	width: 100%;
+	height: 10px;
+	clear: both;
+	margin-top: 25px;
+}
+.Nouveaute {
+	color: #4FAD46;
+	font-size: 25px;
+	text-align: center;
+
+}
 .rotation_images {
-		width: 100%;
-	}
+	text-align: center;
+}
+
 .video {
 	margin-top: 40px;
 }
